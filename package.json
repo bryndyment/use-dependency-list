@@ -1,0 +1,20 @@
+{
+  "author": "Bryn Dyment <bryndyment@gmail.com>",
+  "description": "React hook for tying a function call to a React dependency list.",
+  "license": "ISC",
+  "name": "use-dependency-list",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  },
+  "optionalDependencies": {
+    "@types/node": "^18.15.6",
+    "@types/react": "^18.0.28"
+  },
+  "scripts": {
+    "build": "rm -f index.d.ts index.d.ts.map index.js index.js.map && tsc"
+  }
+}
