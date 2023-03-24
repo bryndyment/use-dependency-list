@@ -3,16 +3,28 @@
   "description": "React hook for tying a function call to a React dependency list.",
   "license": "ISC",
   "name": "use-dependency-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "bugs": {
+    "url": "https://github.com/bryndyment/use-dependency-list/issues"
+  },
   "dependencies": {
-    "react": "^18.2.0"
+    "react": "18.2.0"
   },
   "devDependencies": {
-    "typescript": "^5.0.2"
+    "typescript": "5.0.2"
   },
+  "keywords": [
+    "hook",
+    "React",
+    "useDependencyList"
+  ],
   "optionalDependencies": {
-    "@types/node": "^18.15.6",
-    "@types/react": "^18.0.28"
+    "@types/node": "18.15.6",
+    "@types/react": "18.0.28"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryndyment/use-dependency-list.git"
   },
   "scripts": {
     "build": "rm -f index.d.ts index.d.ts.map index.js index.js.map && tsc"
