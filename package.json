@@ -1,9 +1,9 @@
 {
   "author": "Bryn Dyment <bryndyment@gmail.com>",
   "description": "React hook for tying a function call to a React dependency list.",
-  "license": "ISC",
+  "license": "MIT",
   "name": "use-dependency-list",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "bugs": {
     "url": "https://github.com/bryndyment/use-dependency-list/issues"
   },
