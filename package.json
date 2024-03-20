@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@types/react": "^16 || ^17 || ^18",
-    "typescript": "5.0.4"
+    "typescript": "5.4.3"
   },
   "files": [
     "index.d.ts",
